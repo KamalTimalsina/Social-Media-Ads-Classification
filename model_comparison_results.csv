@@ -1,0 +1,5 @@
+Model,Train Accuracy,Test Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Logistic Regression,1.0,0.9125,0.8929,0.8621,0.8772,0.9351
+Random Forest,1.0,0.975,0.9655,0.9655,0.9655,0.9446
+Gradient Boosting,1.0,0.95,0.931,0.931,0.931,0.9459
+SVM,1.0,0.9125,0.8667,0.8966,0.8814,0.9594

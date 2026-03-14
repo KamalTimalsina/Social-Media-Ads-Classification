@@ -1,0 +1,68 @@
+{
+  "best_model_name": "Random Forest",
+  "best_test_accuracy": 0.975,
+  "best_train_accuracy": 1.0,
+  "best_precision": 0.9655,
+  "best_recall": 0.9655,
+  "best_f1_score": 0.9655,
+  "best_roc_auc": 0.9446,
+  "feature_cols": [
+    "Gender",
+    "Age",
+    "Income",
+    "Clicks",
+    "Location",
+    "Ad Type",
+    "Ad Topic",
+    "CTR",
+    "Conversion Rate"
+  ],
+  "feature_count": 9,
+  "scaler_path": "scaler_weights.pkl",
+  "model_path": "best_model.pkl",
+  "feature_names_path": "feature_names.pkl",
+  "all_models": {
+    "logistic_regression": "logistic_regression_model.pkl",
+    "random_forest": "random_forest_model.pkl",
+    "gradient_boosting": "gradient_boosting_model.pkl",
+    "svm": "svm_model.pkl"
+  },
+  "all_results": [
+    {
+      "Model": "Logistic Regression",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.9125,
+      "Precision": 0.8929,
+      "Recall": 0.8621,
+      "F1-Score": 0.8772,
+      "ROC-AUC": 0.9351
+    },
+    {
+      "Model": "Random Forest",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.975,
+      "Precision": 0.9655,
+      "Recall": 0.9655,
+      "F1-Score": 0.9655,
+      "ROC-AUC": 0.9446
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.95,
+      "Precision": 0.931,
+      "Recall": 0.931,
+      "F1-Score": 0.931,
+      "ROC-AUC": 0.9459
+    },
+    {
+      "Model": "SVM",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.9125,
+      "Precision": 0.8667,
+      "Recall": 0.8966,
+      "F1-Score": 0.8814,
+      "ROC-AUC": 0.9594
+    }
+  ]
+}
